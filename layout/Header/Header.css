@@ -1,0 +1,62 @@
+/* Barra superior naranja */
+.top-bar {
+    background: var(--naranja-kinal);
+    color: white;
+    padding: 10px 0;
+    font-size: 0.85rem;
+}
+
+.container-top {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* Menú de navegación blanco centrado */
+.nav-kinal {
+    background: white;
+    padding: 20px 0;
+    box-shadow: var(--sombra);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--azul-kinal);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--naranja-kinal);
+}
+
+/* Encabezado con imagen de fondo (Hero) */
+.header-kinal {
+    background: linear-gradient(rgba(0, 74, 153, 0.7), rgba(0, 74, 153, 0.7)), 
+                url('https://static.wixstatic.com/media/128120_8a5c3e7d667c4e4b8599427b2c01d4a6~mv2.jpg') no-repeat center/cover;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.header-overlay h1 { font-size: 3.5rem; margin-bottom: 10px; }
+.slogan { font-size: 1.5rem; font-style: italic; margin-bottom: 20px; }

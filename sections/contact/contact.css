@@ -1,0 +1,24 @@
+.seccion-importante {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: -50px auto 50px; /* Sube las cajas sobre el header */
+    padding: 0 20px;
+}
+
+.info-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: var(--sombra);
+    border-bottom: 5px solid var(--naranja-kinal);
+    transition: 0.3s;
+}
+
+.accent-box {
+    background: var(--azul-kinal);
+    color: white;
+}
+
+.info-box:hover { transform: translateY(-10px); }
